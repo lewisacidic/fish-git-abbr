@@ -145,3 +145,4 @@ function $name --on-event $name
   abbr -e gsp 
   abbr -e gsu 
   abbr -e gts 
+end
