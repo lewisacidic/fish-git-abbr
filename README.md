@@ -17,7 +17,6 @@ Fish abbreviations replace typed text with an extended command after pressing \<
 
 abbreviation | result
 -------------|--------
-
 `g` | `git`
 `ga` | `git add`
 `gaa` | `git add --all`
