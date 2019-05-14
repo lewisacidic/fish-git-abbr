@@ -1,3 +1,5 @@
+set -g __lewisacidic_fish_git_abbr_version 0.1.0
+
 abbr g 'git'
   
 abbr ga 'git add'
