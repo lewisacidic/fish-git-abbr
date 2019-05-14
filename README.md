@@ -24,11 +24,11 @@ abbreviation | result
 `gbd` | `git branch -D`
 `gbl` | `git blame`
 `gc` | `git commit -v`
-`gc` |! `git commit -v --amend`
+`gc!` | `git commit -v --amend`
 `gca` | `git commit -a -v`
-`gca` |! `git commit -a -v --amend`
-`gcan` |! `git commit -a -v --no-edit --amend`
-`gcans` |! `git commit -a -v -s --no-edit --amend`
+`gca!` | `git commit -a -v --amend`
+`gcan!` | `git commit -a -v --no-edit --amend`
+`gcans!` | `git commit -a -v -s --no-edit --amend`
 `gcl` | `git clone --recursive`
 `gcf` | `git config --list`
 `gclean` | `git clean -fd`
