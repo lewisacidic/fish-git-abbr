@@ -46,7 +46,9 @@ abbr glg 'git log --graph'
 abbr gm 'git merge'
   
 abbr gp 'git push'
+abbr gpf 'git push --force'
 abbr gpt 'git push --tags'
+abbr gptf 'git push --tags --force'
 abbr gpoat 'git push origin --all && git push origin --tags'
 
 abbr gpristine 'git reset --hard && git clean -dfx'

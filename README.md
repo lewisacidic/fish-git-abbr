@@ -48,7 +48,9 @@ abbreviation | result
 `glg` | `git log --graph`
 `gm` | `git merge`
 `gp` | `git push`
+`gpf` | `git push --force`
 `gpt` | `git push --tags`
+`gptf` | `git push --tags --force`
 `gpoat` | `git push origin --all && git push origin --tags`
 `gpristine` | `git reset --hard && git clean -dfx`
 `gpl` | `git pull`
