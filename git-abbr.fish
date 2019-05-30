@@ -1,4 +1,4 @@
-set -g __lewisacidic_fish_git_abbr_version 0.1.0
+set -g __lewisacidic_fish_git_abbr_version 0.1.1
 
 abbr g 'git'
   
