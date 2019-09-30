@@ -12,6 +12,7 @@ abbr gbl 'git blame'
   
 abbr gc 'git commit -v'
 abbr gc! 'git commit -v --amend'
+abbr gcn! 'git commit -v --amend --no-edit'
 abbr gca 'git commit -a -v'
 abbr gca! 'git commit -a -v --amend'
 abbr gcan! 'git commit -a -v --no-edit --amend'
@@ -50,6 +51,7 @@ abbr gpf 'git push --force'
 abbr gpt 'git push --tags'
 abbr gptf 'git push --tags --force'
 abbr gpoat 'git push origin --all && git push origin --tags'
+abbr gpoatf 'git push origin --all -f && git push origin --tags -f'
 
 abbr gpristine 'git reset --hard && git clean -dfx'
 
@@ -98,6 +100,7 @@ function $name --on-event $name
   abbr -e gbl 
   abbr -e gc 
   abbr -e gc! 
+  abbr -e gcn!
   abbr -e gca 
   abbr -e gca! 
   abbr -e gcan! 
@@ -123,6 +126,7 @@ function $name --on-event $name
   abbr -e gp 
   abbr -e gpt 
   abbr -e gpoat 
+  abbr -e gpoatf
   abbr -e gpristine 
   abbr -e gpl 
   abbr -e gpo 
