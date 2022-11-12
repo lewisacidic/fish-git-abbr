@@ -71,7 +71,7 @@ abbreviation | result
 `grhh` | `git reset HEAD --hard`
 `grth` | `git reset --hard`
 `gst` | `git status`
-`gss` | `git status -s`
+`gsts` | `git status -s`
 `gss` | `git stash save`
 `gsa` | `git stash apply`
 `gsd` | `git stash drop`
