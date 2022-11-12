@@ -78,7 +78,7 @@ abbr grhh 'git reset HEAD --hard'
 abbr grth 'git reset --hard'
 
 abbr gst 'git status'
-abbr gss 'git status -s'
+abbr gsts 'git status -s'
 
 abbr gss 'git stash save'
 abbr gsa 'git stash apply'
@@ -144,7 +144,7 @@ function {$plugin_name}_uninstall --on-event {$plugin_name}_uninstall
   abbr -e grhh 
   abbr -e grth 
   abbr -e gst 
-  abbr -e gss 
+  abbr -e gsts 
   abbr -e gss 
   abbr -e gsa 
   abbr -e gsd 
