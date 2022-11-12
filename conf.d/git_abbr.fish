@@ -1,4 +1,5 @@
-set -g __lewisacidic_fish_git_abbr_version 0.1.2
+set -l plugin_name (basename (status -f) .fish)
+set -g _{$plugin_name}_version 0.1.2
 
 abbr g 'git'
   
@@ -88,10 +89,7 @@ abbr gsu 'git submodule update'
 
 abbr gts 'git tag -s'
 
-
-set -l name (basename (status -f) .fish){_uninstall}
-
-function $name --on-event $name
+function {$plugin_name}_uninstall --on-event {$plugin_name}_uninstall
   abbr -e g 
   abbr -e ga 
   abbr -e gaa 
