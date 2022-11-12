@@ -1,5 +1,5 @@
 set -l plugin_name (basename (status -f) .fish)
-set -g _{$plugin_name}_version 0.1.2
+set -g _{$plugin_name}_version 0.1.3
 
 abbr g 'git'
   
