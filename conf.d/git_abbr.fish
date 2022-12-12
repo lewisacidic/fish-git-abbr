@@ -1,5 +1,12 @@
-set -l plugin_name (basename (status -f) .fish)
-set -g _{$plugin_name}_version 0.1.4
+#!/usr/bin/env fish
+#
+# git-abbr: git abbreviations for the fish shell
+#
+# Copyright (c) 2022 Rich Lewis
+# MIT License
+
+set -l git_abbr
+set -g __git_abbr_version 0.1.4
 
 abbr g 'git'
   
@@ -89,7 +96,7 @@ abbr gsu 'git submodule update'
 
 abbr gts 'git tag -s'
 
-function {$plugin_name}_uninstall --on-event {$plugin_name}_uninstall
+function git_abbr_uninstall --on-event git_abbr_uninstall
   abbr -e g 
   abbr -e ga 
   abbr -e gaa 
