@@ -5,7 +5,6 @@
 # Copyright (c) 2022 Rich Lewis
 # MIT License
 
-set -l git_abbr
 set -g __git_abbr_version 0.1.4
 
 abbr g 'git'
@@ -97,6 +96,8 @@ abbr gsu 'git submodule update'
 abbr gts 'git tag -s'
 
 function git_abbr_uninstall --on-event git_abbr_uninstall
+  set -e __git_abbr_version
+
   abbr -e g
   abbr -e ga
   abbr -e gaa
