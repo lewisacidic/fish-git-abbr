@@ -9,15 +9,15 @@ set -l git_abbr
 set -g __git_abbr_version 0.1.4
 
 abbr g 'git'
-  
+
 abbr ga 'git add'
 abbr gaa 'git add --all'
-  
+
 abbr gb 'git branch'
 abbr gbd 'git branch -D'
-  
+
 abbr gbl 'git blame'
-  
+
 abbr gc 'git commit -v'
 abbr gc! 'git commit -v --amend'
 abbr gcn! 'git commit -v --amend --no-edit'
@@ -53,7 +53,7 @@ abbr gl 'git log'
 abbr glg 'git log --graph'
 
 abbr gm 'git merge'
-  
+
 abbr gp 'git push'
 abbr gpf 'git push --force'
 abbr gpt 'git push --tags'
@@ -97,65 +97,65 @@ abbr gsu 'git submodule update'
 abbr gts 'git tag -s'
 
 function git_abbr_uninstall --on-event git_abbr_uninstall
-  abbr -e g 
-  abbr -e ga 
-  abbr -e gaa 
-  abbr -e gb 
-  abbr -e gbd 
-  abbr -e gbl 
-  abbr -e gc 
-  abbr -e gc! 
+  abbr -e g
+  abbr -e ga
+  abbr -e gaa
+  abbr -e gb
+  abbr -e gbd
+  abbr -e gbl
+  abbr -e gc
+  abbr -e gc!
   abbr -e gcn!
-  abbr -e gca 
-  abbr -e gca! 
-  abbr -e gcan! 
-  abbr -e gcans! 
-  abbr -e gcl 
-  abbr -e gcf 
-  abbr -e gclean 
-  abbr -e gco 
-  abbr -e gcob 
-  abbr -e gcom 
-  abbr -e gcod 
-  abbr -e gcof 
-  abbr -e gcp 
-  abbr -e gcpa 
-  abbr -e gcpc 
-  abbr -e gd 
-  abbr -e gf 
-  abbr -e gfa 
-  abbr -e gfo 
-  abbr -e gl 
-  abbr -e glg 
-  abbr -e gm 
-  abbr -e gp 
-  abbr -e gpt 
-  abbr -e gpoat 
+  abbr -e gca
+  abbr -e gca!
+  abbr -e gcan!
+  abbr -e gcans!
+  abbr -e gcl
+  abbr -e gcf
+  abbr -e gclean
+  abbr -e gco
+  abbr -e gcob
+  abbr -e gcom
+  abbr -e gcod
+  abbr -e gcof
+  abbr -e gcp
+  abbr -e gcpa
+  abbr -e gcpc
+  abbr -e gd
+  abbr -e gf
+  abbr -e gfa
+  abbr -e gfo
+  abbr -e gl
+  abbr -e glg
+  abbr -e gm
+  abbr -e gp
+  abbr -e gpt
+  abbr -e gpoat
   abbr -e gpoatf
-  abbr -e gpristine 
-  abbr -e gpl 
-  abbr -e gpo 
-  abbr -e gpom 
-  abbr -e gpu 
-  abbr -e gpum 
-  abbr -e gr 
-  abbr -e gra 
-  abbr -e grau 
-  abbr -e grrm 
-  abbr -e grmv 
-  abbr -e grset 
-  abbr -e grb 
-  abbr -e grba 
-  abbr -e grbc 
-  abbr -e grt 
-  abbr -e grhh 
-  abbr -e grth 
-  abbr -e gst 
-  abbr -e gsts 
-  abbr -e gss 
-  abbr -e gsa 
-  abbr -e gsd 
-  abbr -e gsp 
-  abbr -e gsu 
-  abbr -e gts 
+  abbr -e gpristine
+  abbr -e gpl
+  abbr -e gpo
+  abbr -e gpom
+  abbr -e gpu
+  abbr -e gpum
+  abbr -e gr
+  abbr -e gra
+  abbr -e grau
+  abbr -e grrm
+  abbr -e grmv
+  abbr -e grset
+  abbr -e grb
+  abbr -e grba
+  abbr -e grbc
+  abbr -e grt
+  abbr -e grhh
+  abbr -e grth
+  abbr -e gst
+  abbr -e gsts
+  abbr -e gss
+  abbr -e gsa
+  abbr -e gsd
+  abbr -e gsp
+  abbr -e gsu
+  abbr -e gts
 end
