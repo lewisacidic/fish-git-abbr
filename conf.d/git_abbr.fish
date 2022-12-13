@@ -20,7 +20,9 @@ abbr gapt 'git apply --3way'
 abbr gb 'git branch'
 abbr gba 'git branch -a'
 abbr gbd 'git branch -d'
+abbr gbdf 'git branch -d -f'
 abbr gbD 'git branch -D'
+abbr gbDf 'git branch -D -f'
 abbr gbnm 'git branch --no-merged'
 abbr gbr 'git branch --remote'
 
@@ -55,10 +57,13 @@ abbr gclean 'git clean -id'
 
 abbr gco 'git checkout'
 abbr gcob 'git checkout -b'
-abbr gcom 'git checkout main'
-abbr gcod 'git checkout develop'
-abbr gcof 'git checkout feat/'
-abbr gcor 'git checkout --recurse-submodules'
+abbr gcom 'git checkout (git_main_branch)'
+abbr gcod 'git checkout (git_develop_branch)'
+abbr gcof 'git checkout (git_feature_prepend)/'
+abbr gcoh 'git checkout hotfix/'
+abbr gcor 'git checkout release/'
+abbr gcos 'git checkout support/'
+abbr gcors 'git checkout --recurse-submodules'
 
 abbr gcount 'git shortlog -sn'
 
@@ -257,6 +262,7 @@ function git_abbr_uninstall --on-event git_abbr_uninstall
   functions -e git_current_branch
   functions -e git_main_branch
   functions -e git_develop_branch
+  functions -e git_feature_branch_prepend
 
   abbr -e g
   abbr -e ga
@@ -269,7 +275,9 @@ function git_abbr_uninstall --on-event git_abbr_uninstall
   abbr -e gb
   abbr -e gba
   abbr -e gbd
+  abbr -e gbDf
   abbr -e gbD
+  abbr -e gbDf
   abbr -e gbnm
   abbr -e gbr
   abbr -e gbl
@@ -300,7 +308,10 @@ function git_abbr_uninstall --on-event git_abbr_uninstall
   abbr -e gcom
   abbr -e gcod
   abbr -e gcof
+  abbr -e gcoh
   abbr -e gcor
+  abbr -e gcos
+  abbr -e gcors
   abbr -e gcount
   abbr -e gcp
   abbr -e gcpa
