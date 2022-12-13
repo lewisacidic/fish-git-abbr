@@ -156,16 +156,16 @@ abbr gplom 'git pull origin master'
 abbr gplu 'git pull upstream'
 abbr gplum 'git pull upstream master'
 
-# grm: git remote
-abbr grm 'git remote -v'
-abbr grma 'git remote add'
-abbr grmau 'git remote add upstream'
-abbr grmrm 'git remote remove'
-abbr grmmv 'git remote rename'
-abbr grmset 'git remote set-url'
-abbr grmu 'git remote update'
-abbr grmv 'git remote -v'
-abbr grmvv 'git remote -vvv'
+# gr: git remote
+abbr gr 'git remote -v'
+abbr gra 'git remote add'
+abbr grau 'git remote add upstream'
+abbr grrm 'git remote remove'
+abbr grmv 'git remote rename'
+abbr grset 'git remote set-url'
+abbr gru 'git remote update'
+abbr grv 'git remote -v'
+abbr grvv 'git remote -vvv'
 
 # grb: git rebase
 abbr grb 'git rebase'
@@ -363,15 +363,15 @@ function git_abbr_uninstall --on-event git_abbr_uninstall
   abbr -e gplom
   abbr -e gplu
   abbr -e gplum
-  abbr -e grm
-  abbr -e grma
-  abbr -e grmau
-  abbr -e grmrm
-  abbr -e grmmv
-  abbr -e grmset
-  abbr -e grmu
+  abbr -e gr
+  abbr -e gra
+  abbr -e grau
+  abbr -e grrm
   abbr -e grmv
-  abbr -e grmvv
+  abbr -e grset
+  abbr -e gru
+  abbr -e grv
+  abbr -e grvv
   abbr -e grb
   abbr -e grba
   abbr -e grbc

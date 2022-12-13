@@ -116,15 +116,15 @@ abbreviation | result
 `gplom` | `git pull origin master`
 `gplu` | `git pull upstream`
 `gplum` | `git pull upstream master`
-`grm` | `git remote -v`
-`grma` | `git remote add`
-`grmau` | `git remote add upstream`
-`grmrm` | `git remote remove`
-`grmmv` | `git remote rename`
-`grmset` | `git remote set-url`
-`grmu` | `git remote update`
-`grmv` | `git remote -v`
-`grmvv` | `git remote -vvv`
+`gr` | `git remote -v`
+`gra` | `git remote add`
+`grau` | `git remote add upstream`
+`grrm` | `git remote remove`
+`grmv` | `git remote rename`
+`grset` | `git remote set-url`
+`gru` | `git remote update`
+`grv` | `git remote -v`
+`grvv` | `git remote -vvv`
 `grb` | `git rebase`
 `grba` | `git rebase --abort`
 `grbc` | `git rebase --continue`
