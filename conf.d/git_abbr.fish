@@ -5,7 +5,7 @@
 # Copyright (c) 2022 Rich Lewis
 # MIT License
 
-set -g __git_abbr_version 0.2.0
+set -g __git_abbr_version 0.2.1
 
 abbr g 'git'
 
