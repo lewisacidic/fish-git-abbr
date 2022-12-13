@@ -251,7 +251,13 @@ abbr gama 'git am --abort'
 abbr gamscp 'git am --show-current-patch'
 
 function git_abbr_uninstall --on-event git_abbr_uninstall
+
   set -e __git_abbr_version
+
+  functions -e git_current_branch
+  functions -e git_main_branch
+  functions -e git_develop_branch
+
   abbr -e g
   abbr -e ga
   abbr -e gaa
