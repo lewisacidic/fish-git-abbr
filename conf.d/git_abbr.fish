@@ -35,6 +35,7 @@ abbr gbsr 'git bisect reset'
 abbr gbss 'git bisect start'
 
 abbr gc 'git commit -v'
+abbr gci 'git commit --allow-empty -v -m\'chore: initial commit\''
 abbr gc! 'git commit -v --amend'
 abbr gcn 'git commit -v --no-edit'
 abbr gcn! 'git commit -v --amend --no-edit'
@@ -287,6 +288,7 @@ function git_abbr_uninstall --on-event git_abbr_uninstall
   abbr -e gbsr
   abbr -e gbss
   abbr -e gc
+  abbr -e gci
   abbr -e gc!
   abbr -e gcn
   abbr -e gcn!
