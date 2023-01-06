@@ -103,6 +103,8 @@ abbr gfo 'git fetch origin'
 
 abbr ghh 'git help'
 
+abbr gi 'git init'
+
 abbr gignore 'git update-index --assume-unchanged'
 abbr gignored 'git ls-files -v | grep "^[[:lower:]]"'
 
@@ -329,6 +331,7 @@ function git_abbr_uninstall --on-event git_abbr_uninstall
   abbr -e gfa
   abbr -e gfo
   abbr -e ghh
+  abbr -e gi
   abbr -e gignore
   abbr -e gignored
   abbr -e gk

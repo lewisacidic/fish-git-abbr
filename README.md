@@ -81,6 +81,7 @@ abbreviation | result
 `gfa` | `git fetch --all --prune`
 `gfo` | `git fetch origin`
 `ghh` | `git help`
+`gi` | `git init`
 `gignore` | `git update-index --assume-unchanged`
 `gignored` | `git ls-files -v | grep "^[[:lower:]]"`
 `gk` | `gitk --all --branches &!`
