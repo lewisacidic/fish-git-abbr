@@ -155,9 +155,9 @@ abbr gpv 'git push -v'
 # gpl: git pull
 abbr gpl 'git pull'
 abbr gplo 'git pull origin'
-abbr gplom 'git pull origin master'
+abbr gplom 'git pull origin (git_main_branch)'
 abbr gplu 'git pull upstream'
-abbr gplum 'git pull upstream master'
+abbr gplum 'git pull upstream (git_main_branch)'
 
 # gr: git remote
 abbr gr 'git remote -v'

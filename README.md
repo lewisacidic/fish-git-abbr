@@ -115,9 +115,9 @@ abbreviation | result
 `gpv` | `git push -v`
 `gpl` | `git pull`
 `gplo` | `git pull origin`
-`gplom` | `git pull origin master`
+`gplom` | `git pull origin (git_main_branch)`
 `gplu` | `git pull upstream`
-`gplum` | `git pull upstream master`
+`gplum` | `git pull upstream (git_main_branch)`
 `gr` | `git remote -v`
 `gra` | `git remote add`
 `grau` | `git remote add upstream`
