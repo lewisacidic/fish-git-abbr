@@ -41,7 +41,7 @@ abbreviation | result
 `gbsr` | `git bisect reset`
 `gbss` | `git bisect start`
 `gc` | `git commit -v`
-`gci` | `git commit -v --allow-empty -m'chore: initial commit'`
+`gci` | `git commit -v --allow-empty -m 'chore: initial commit'`
 `gc!` | `git commit -v --amend`
 `gcn` | `git commit -v --no-edit`
 `gcn!` | `git commit -v --amend --no-edit`
