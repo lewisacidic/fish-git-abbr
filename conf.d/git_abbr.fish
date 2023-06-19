@@ -204,7 +204,7 @@ abbr grsts 'git restore --source'
 abbr grstst 'git restore --staged'
 
 # grt: git return
-abbr grt 'cd "(git rev-parse --show-toplevel || echo .)"'
+abbr grt 'cd (git rev-parse --show-toplevel || echo .)'
 
 # gs: git status
 abbr gs 'git status'

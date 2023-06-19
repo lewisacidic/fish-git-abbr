@@ -151,7 +151,7 @@ abbreviation | result
 `grst` | `git restore`
 `grsts` | `git restore --source`
 `grstst` | `git restore --staged`
-`grt` | `cd "(git rev-parse --show-toplevel || echo .)"`
+`grt` | `cd (git rev-parse --show-toplevel || echo .)`
 `gs` | `git status`
 `gss` | `git status -s`
 `gsb` | `git status -sb`
