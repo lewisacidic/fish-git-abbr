@@ -134,6 +134,7 @@ abbreviation | result
 `grbc` | `git rebase --continue`
 `grbd` | `git rebase (git_develop_branch)`
 `grbi` | `git rebase -i`
+`grbm` | `git rebase (git_main_branch)`
 `grbom` | `git rebase origin/(git_main_branch)`
 `grbo` | `git rebase --onto`
 `grbs` | `git rebase --skip`

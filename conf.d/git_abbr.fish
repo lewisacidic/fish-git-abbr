@@ -177,6 +177,7 @@ abbr grba 'git rebase --abort'
 abbr grbc 'git rebase --continue'
 abbr grbd 'git rebase (git_develop_branch)'
 abbr grbi 'git rebase -i'
+abbr grbm 'git rebase (git_main_branch)'
 abbr grbom 'git rebase origin/(git_main_branch)'
 abbr grbo 'git rebase --onto'
 abbr grbs 'git rebase --skip'
@@ -383,6 +384,7 @@ function git_abbr_uninstall --on-event git_abbr_uninstall
   abbr -e grbc
   abbr -e grbd
   abbr -e grbi
+  abbr -e grbm
   abbr -e grbom
   abbr -e grbo
   abbr -e grbs
