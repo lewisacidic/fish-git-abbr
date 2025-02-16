@@ -87,6 +87,19 @@ abbreviation | result
 `gignored` | `git ls-files -v | grep "^[[:lower:]]"`
 `gk` | `gitk --all --branches &!`
 `gke` | `gitk --all (git log -g --pretty=%h) &!`
+`gg` | `git gui citool`
+`gga` | `git gui citool --amend`
+`ggf` | `git push --force origin $(current_branch)`
+`ggfl` | `git push --force-with-lease origin $(current_branch)`
+`ggl` | `git pull origin $(current_branch)`
+`ggpnp`    | `git pull origin $(current_branch) && git push origin $(current_branch)`
+`ggpull`| `git pull origin "$(git_current_branch)"`
+`ggpur`    | `git pull --rebase origin $(current_branch)`
+`ggsup`    | `git branch --set-upstream-to=origin/$(git_current_branch)`
+`ggu`      | `git pull --rebase origin $(current_branch)`
+`gpsup`    | `git push --set-upstream origin $(git_current_branch)`
+`ggpush` | `'git push origin "$(git_current_branch)"'`
+`ggp` | `'git push'`
 `gfg` | `git ls-files | grep`
 `gl` | `git log`
 `gls` | `git log --stat`

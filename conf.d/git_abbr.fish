@@ -35,7 +35,7 @@ abbr gbsr 'git bisect reset'
 abbr gbss 'git bisect start'
 
 abbr gc 'git commit -v'
-abbr gci 'git commit --allow-empty -v -m\'chore: initial commit\''
+abbr gci 'git commit --allow-empty -v -m"chore: initial commit"'
 abbr gc! 'git commit -v --amend'
 abbr gcn 'git commit -v --no-edit'
 abbr gcn! 'git commit -v --amend --no-edit'
@@ -87,19 +87,17 @@ abbr gf 'git fetch'
 abbr gfa 'git fetch --all --prune'
 abbr gfo 'git fetch origin'
 
-# gg
-# gga
-# ggf
-# ggfl
-# ggl
-# ggp
-# ggpnp
-# ggpull
-# ggpur
-# ggpush
-# ggsup
-# ggu
-# gpsup
+abbr gg 'git gui citool'
+abbr gga 'git gui citool --amend'
+abbr ggf 'git push --force origin $(git_current_branch)'
+abbr ggfl 'git push --force-with-lease origin $(git_current_branch)'
+abbr ggl 'git pull origin $(git_current_branch)'
+abbr ggpnp 'git pull origin $(git_current_branch) && git push origin $(git_current_branch)'
+abbr ggpull 'git pull origin "$(git_current_branch)"'
+abbr ggpur 'git pull --rebase origin $(git_current_branch)'
+abbr ggsup 'git branch --set-upstream-to=origin/$(git_current_branch)'
+abbr ggu 'git pull --rebase origin $(git_current_branch)'
+abbr gpsup 'git push --set-upstream origin $(git_current_branch)'
 
 abbr ghh 'git help'
 
@@ -152,6 +150,8 @@ abbr gpoat 'git push origin --all && git push origin --tags'
 abbr gpoatf! 'git push origin --all --force-with-lease && git push origin --tags --force-with-lease'
 abbr gpoatf! 'git push origin --all --force && git push origin --tags --force'
 abbr gpv 'git push -v'
+abbr ggpush 'git push origin "$(git_current_branch)"'
+abbr ggp 'git push origin $(git_current_branch)'
 
 # gpl: git pull
 abbr gpl 'git pull'
@@ -338,6 +338,19 @@ function git_abbr_uninstall --on-event git_abbr_uninstall
   abbr -e gk
   abbr -e gke
   abbr -e gfg
+  abbr -e gg
+  abbr -e gga
+  abbr -e ggf
+  abbr -e ggfl
+  abbr -e ggl
+  abbr -e ggpnp
+  abbr -e ggpull
+  abbr -e ggpur
+  abbr -e ggsup
+  abbr -e ggu
+  abbr -e gpsup
+  abbr -e ggpush
+  abbr -e ggp
   abbr -e gl
   abbr -e gls
   abbr -e glsp
